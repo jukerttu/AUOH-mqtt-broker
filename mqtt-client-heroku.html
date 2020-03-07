@@ -4,6 +4,9 @@
 ></script>
 </head>
 <script>
+// Herokussa on käynnissä app.js joka lähettää dataa web-sivulle
+// Tässä kohtaa on määritelty host-mistä dataa luetaan.
+// Data lähetetään mqtt-broker1.herokuapp.com kun sivu avataan.
  let options = {
  host: 'mqtt-broker1.herokuapp.com',
  port: 443,
